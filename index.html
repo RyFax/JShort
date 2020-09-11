@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>JShort</title>
+</head>
+<body>
+
+    <input type="email" name="email" class="email"><br>
+    <input type="email" name="email" class="email"><br>
+
+    <a class="btn">Ok</a><br>
+    <a class="btn">Ok</a>
+
+    <script src="JShort.js"></script>
+    <script>
+        let elem = s('.email');
+
+        s('.btn').event('click', () => {
+            alert(elem.value());
+        });
+    </script>
+</body>
+</html>

@@ -50,7 +50,7 @@ class ShortElements {
      * @param {function} fn
      */
     forEach(fn) {
-        this.items.forEach(i => fn(i));
+        this.items.forEach(fn);
     }
 
     /**
